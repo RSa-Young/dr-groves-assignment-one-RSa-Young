@@ -5,15 +5,7 @@ title: Assignment One - ECON 691 - Groves
 For this assignment you will obtain and clean data for your assigned States from IPUMS via API and then merge this with Census Tiger Files using the Census API and create a Map showing the variation of one of the key variables that you create in this assignment. When you cloned this repository you should have acquired a script file called "Assignment_One.R" and a "README.md" file. Your grade will be based on the correct manipulation of the script file and the output produced by the *plot()* command that should appear at the end of your script. You will also be graded on the quality of the code that you write and for covering the basics (like saving your final data in the right place).
 
 **State Assignments**
-Student	States
-Addo	Washington, Oregon, Idaho, Montana
-Aminu	Arizona, New Mexico, Utah, Colorado
-Fabiha	Wyoming, North Dakota, South Dakota, Minnesota
-Masoudi	Nebraska, Kansas, Iowa, Missouri
-Saba	Texas, Oklahoma, Arkansas, Louisiana
-Salman	Alabama, Georgia Mississippi, Florida
-Sarau-Young	Illinois, Indiana, Kentucky, Tennessee
-Sung	Pennsylvania, Ohio, West Virginia, Virginia
+
 ![image](https://github.com/user-attachments/assets/d5850421-f71a-41d5-963d-e72950f536a2)
 
 
