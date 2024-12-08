@@ -74,7 +74,7 @@ library(stargazer)
              white = (rowSums(across(B18AA)))/A00AA, #White Population
              black = (rowSums(across(B18AB)))/A00AA, #Black Population
              asian = (rowSums(across(B18AD)))/A00AA, #Asian Population
-             other = (rowSums(across(B18AC)))/A00AA , #Something other than the above including multiple-race
+             other = (1-white-black-asian), #Something other than the above including multiple-race
              lessHS = (BX3AA + BX3AB + BX3AC + BX3AG + BX3AH + BX3AI) / A00AA,
              hscol =  (BX3AD+BX3AJ)/A00AA, #12th Grade and some college
              ungrd =  (BX3AE+BX3AK)/A00AA, #4 years of college or Bach Degree
