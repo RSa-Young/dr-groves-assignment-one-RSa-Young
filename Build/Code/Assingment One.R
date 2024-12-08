@@ -8,7 +8,7 @@ library(ipumsr)
 library(stargazer)
 
 #Getting data from IPUMS API
-  set_ipums_api_key("59cba10d8a5da536fc06b59d2a94d33312d34c1188773d61be74ee7c",save = TRUE) #Sets your personal key and saves it
+  set_ipums_api_key("insert API Code",save = TRUE) #Sets your personal key and saves it
 
   tst <- get_metadata_nhgis("time_series_tables") #This gives you a list of the time series tables that you can get
 
